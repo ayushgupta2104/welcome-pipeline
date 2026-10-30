@@ -1,0 +1,12 @@
+name:welcome
+
+on:
+  push:
+    branch:[main]
+  workflow_dispatch:
+jobs:
+  welcome:
+      run-on: ubuntu-latest
+      steps:
+        -name:say welcome
+          run:echo"welcome to devops!"
