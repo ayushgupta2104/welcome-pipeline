@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   welcome:
-      run-on: ubuntu-latest
+      runs-on: ubuntu-latest
       
       steps:
         - name: say welcome
